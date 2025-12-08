@@ -28,7 +28,7 @@ const Education = ({ language }: EducationProps) => {
         </motion.div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-          {t.items.map((item, index) => (
+          {t.items.map((item: any, index: number) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 30 }}

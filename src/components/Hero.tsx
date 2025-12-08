@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { Github, Linkedin, Mail, Download } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { content } from '../languages/content';
 import profilePic from '../assets/mainpic.jpg';
 
@@ -8,7 +8,7 @@ interface HeroProps {
   language: 'pl' | 'en';
 }
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -16,22 +16,22 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, x: -30 },
   visible: {
     opacity: 1,
     x: 0,
-    transition: { duration: 0.6, ease: 'easeOut' },
+    transition: { duration: 0.6 },
   },
 };
 
-const imageVariants = {
+const imageVariants: Variants = {
   hidden: { opacity: 0, x: 50, scale: 0.9 },
   visible: {
     opacity: 1,
     x: 0,
     scale: 1,
-    transition: { duration: 0.8, ease: 'easeOut', delay: 0.5 },
+    transition: { duration: 0.8, delay: 0.5 },
   },
 };
 
@@ -67,7 +67,7 @@ const Hero = ({ language }: HeroProps) => {
       />
       <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,transparent_0%,#1c1c1c_100%)]" />
 
-      <div className="container relative z-10 mx-auto grid grid-cols-1 gap-12 px-6 py-12 lg:grid-cols-2 lg:gap-20 lg:px-8 lg:py-0">
+      <div className="container relative z-10 mx-auto grid grid-cols-1 gap-12 px-6 lg:grid-cols-2 lg:gap-20 lg:px-8 items-center py-12 lg:py-0">
         <motion.section
           className="order-2 text-center lg:order-1 lg:pl-16 lg:text-left"
           variants={containerVariants}
@@ -75,24 +75,26 @@ const Hero = ({ language }: HeroProps) => {
           animate="visible"
         >
           <motion.div variants={itemVariants}>
-            <h1 className="text-5xl font-bold leading-[1.1] tracking-tight sm:text-7xl">
-              <span className="block text-white">
+            <h1 className="text-5xl sm:text-7xl font-bold tracking-tight leading-[1.1]">
+              <span className="text-white block">
                 {t.greeting} {t.title_prefix}
               </span>
-              <span className="block text-neon">{t.name}</span>
+              <span className="text-neon block">
+                {t.name}
+              </span>
             </h1>
           </motion.div>
 
           <motion.h2
-            variants={itemVariants}
-            className="mb-1 mt-6 text-xl font-medium tracking-wider text-gray-300 uppercase sm:text-2xl"
+             variants={itemVariants}
+             className="mt-6 mb-1 text-xl sm:text-2xl font-medium text-gray-300 tracking-wider uppercase"
           >
             {t.role}
           </motion.h2>
 
           <motion.p
             variants={itemVariants}
-            className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-gray-400 sm:text-xl lg:mx-0"
+            className="mb-10 text-lg text-gray-400 sm:text-xl leading-relaxed max-w-2xl lg:mx-0 mx-auto"
           >
             <span className="font-semibold text-white">{t.desc_1}</span>{' '}
             {t.desc_2}
@@ -100,10 +102,10 @@ const Hero = ({ language }: HeroProps) => {
 
           <motion.div
             variants={itemVariants}
-            className="flex flex-col items-center justify-center gap-6 sm:flex-row lg:justify-start"
+            className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6"
           >
-            <a
-              href="/cv.pdf"
+            <a 
+              href="/cv.pdf" 
               download
               className="flex items-center gap-2 rounded-full border-2 border-neon bg-transparent px-8 py-3 text-base font-bold text-neon transition-all hover:bg-neon hover:text-dark-bg hover:shadow-[0_0_20px_rgba(33,255,166,0.4)]"
             >
@@ -129,6 +131,7 @@ const Hero = ({ language }: HeroProps) => {
               ))}
             </div>
           </motion.div>
+
         </motion.section>
 
         <motion.div

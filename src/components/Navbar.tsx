@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Globe, ChevronDown, Menu, X, Briefcase } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { content } from '../languages/content';
+import { content } from '../languages/content.ts';
 
 interface NavbarProps {
   language: 'pl' | 'en';
