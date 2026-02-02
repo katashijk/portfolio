@@ -60,15 +60,7 @@ function App() {
       transform: 'scale(0.95)',
       transition: { duration: 0.4, ease: "easeIn" } 
     },
-  };
-
-  // --- NOWE: WSPÓLNE ANIMACJE STRON (PRZEJŚCIA MIĘDZY WIDOKAMI) ---
-  const pageTransition = {
-    initial: { opacity: 0, x: 50 },  // Wchodzi z prawej
-    animate: { opacity: 1, x: 0 },   // Stoi w miejscu
-    exit: { opacity: 0, x: 50 },     // Wychodzi w prawo
-    transition: { duration: 0.4, ease: "easeInOut" }
-  };
+  } as const;
 
   return (
     <div className="min-h-screen bg-dark-bg font-sans text-white selection:bg-neon selection:text-dark-bg overflow-x-hidden">

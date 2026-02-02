@@ -1,4 +1,4 @@
-import { useRef, useState, FormEvent } from 'react';
+import { useRef, useState, type FormEvent } from 'react';
 import { ArrowLeft, Send, Mail, MapPin, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
