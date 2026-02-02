@@ -48,7 +48,6 @@ a, button, [type="button"], [type="submit"] {
   .text-neon { color: #219BFF; }
   .bg-neon { background-color: #219BFF; }
   .border-neon { border-color: #219BFF; }
-  /* Usunięto .bg-dark-bg, aby nie blokować opacity w Tailwindzie */
 }
 
 /* --- ANIMATION: GLITCH --- */

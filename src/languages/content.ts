@@ -68,8 +68,8 @@ export const content = {
           desc: 'Stworzenie tekstur, za których pomocą gracz w czasie rzeczywistym może zmieniać kolor malowania pancerza.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/katashiptrp1.png', 
-            'src/assets/katashiprivatearf1.png'
+            '../assets/katashiptrp1.png', 
+            '../assets/katashiprivatearf1.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' },
@@ -82,12 +82,12 @@ export const content = {
           desc: 'Techniczna adaptacja i personalizacja modeli bazowych dla klienta. Projekt skupiał się na nadaniu unikalnego charakteru wizualnego przy ścisłym zachowaniu spójności z materiałem źródłowym.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/keeli1-ss.png', 
-            'src/assets/keeli_python_private_2.png',
-            'src/assets/gc-ss.png',
-            'src/assets/6th-ss.png',
-            'src/assets/104th-ss.png',
-            'src/assets/212th-ss.png'
+            '../assets/keeli1-ss.png', 
+            '../assets/keeli_python_private_2.png',
+            '../assets/gc-ss.png',
+            '../assets/6th-ss.png',
+            '../assets/104th-ss.png',
+            '../assets/212th-ss.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' },
@@ -100,12 +100,12 @@ export const content = {
           desc: 'Wyselekcjonowane prace wykonane w ramach komercyjnych zleceń freelancerskich. Wszystkie stworzone z dogłębną konsultacją z klientem podczas każdego etapu pracy.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/DT-DROID-BLACK.png',
-            'src/assets/DT-DROID-WHITE.png',
-            'src/assets/kd_imperialcommando2.png',
-            'src/assets/n1thragr2.png',
-            'src/assets/kd_tx212_1.png',
-            'src/assets/kd_tx212_6.png'
+            '../assets/DT-DROID-BLACK.png',
+            '../assets/DT-DROID-WHITE.png',
+            '../assets/kd_imperialcommando2.png',
+            '../assets/n1thragr2.png',
+            '../assets/kd_tx212_1.png',
+            '../assets/kd_tx212_6.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' }
@@ -199,8 +199,8 @@ export const content = {
           desc: 'Creation of textures allowing the player to change armor painting color in real-time.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/katashiptrp1.png', 
-            'src/assets/katashiprivatearf1.png'
+            '../assets/katashiptrp1.png', 
+            '../assets/katashiprivatearf1.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' },
@@ -213,12 +213,12 @@ export const content = {
           desc: 'Technical adaptation and personalization of base models for a client. The project focused on giving a unique visual character while strictly maintaining consistency with the source material.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/keeli1-ss.png', 
-            'src/assets/keeli_python_private_2.png',
-            'src/assets/gc-ss.png',
-            'src/assets/6th-ss.png',
-            'src/assets/104th-ss.png',
-            'src/assets/212th-ss.png'
+            '../assets/keeli1-ss.png', 
+            '../assets/keeli_python_private_2.png',
+            '../assets/gc-ss.png',
+            '../assets/6th-ss.png',
+            '../assets/104th-ss.png',
+            '../assets/212th-ss.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' },
@@ -231,12 +231,12 @@ export const content = {
           desc: 'Selected works created as part of commercial freelance commissions. All created with in-depth client consultation at every stage of work.',
           tech: ['Substance Painter 3D', 'Blender', 'VTF Edit'],
           images: [
-            'src/assets/DT-DROID-BLACK.png',
-            'src/assets/DT-DROID-WHITE.png',
-            'src/assets/kd_imperialcommando2.png',
-            'src/assets/n1thragr2.png',
-            'src/assets/kd_tx212_1.png',
-            'src/assets/kd_tx212_6.png'
+            '../assets/DT-DROID-BLACK.png',
+            '../assets/DT-DROID-WHITE.png',
+            '../assets/kd_imperialcommando2.png',
+            '../assets/n1thragr2.png',
+            '../assets/kd_tx212_1.png',
+            '../assets/kd_tx212_6.png'
           ],
           links: [
             { type: 'artstation', url: 'https://katashijk.artstation.com', label: 'ArtStation' }
