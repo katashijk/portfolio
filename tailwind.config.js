@@ -6,7 +6,7 @@ export default {
     theme: {
         extend: {
             colors: {
-                'neon': '#21ffa6', //Main green
+                'neon': '#219bff', //Main green
                 'dark-bg': '#1c1c1c', //Background dark
             }
         },
