@@ -66,7 +66,7 @@ export const content = {
     profile: {
       title: 'Krótki Profil',
       bio_title: 'O mnie',
-      bio_desc: 'Mój świat to miks technologii i kreatywnego zacięcia. Łączę dwa bieguny: z jednej strony programowanie i techniczne wyzwania (sieci, monitoring, hardware), z drugiej – cyfrową sztukę. Uwielbiam tworzyć i malować modele 3D, bo to pozwala mi zobaczyć efekty pracy poza samym kodem. Poza tym? Kocham podróże i odkrywanie nowych miejsc.',
+      bio_desc: 'Łączę dwa światy: z jednej strony programowanie i techniczne wyzwania (sieci, monitoring, hardware), z drugiej – cyfrową sztukę. Uwielbiam tworzyć i malować modele 3D, bo to pozwala mi zobaczyć efekty mojej pracy w nieco inny sposób, niż sam kod. Poza tym? Kocham podróże i odkrywanie nowych miejsc.',
       tech_title: 'Tech Stack',
       tech_items: ['C++', 'Java', 'Lua', 'HTML5', 'CSS', 'JavaScript', 'PHP', 'SQL', 'Git', 'Blender', 'Substance Painter 3D'],
       location_title: 'Lokalizacja',
@@ -197,7 +197,7 @@ export const content = {
     profile: {
       title: 'Profile Overview',
       bio_title: 'About Me',
-      bio_desc: 'My world is a mix of technology and creative flair. I bridge two poles: on one hand, programming and technical challenges (networks, monitoring, hardware), and on the other – digital art. I love creating and painting 3D models, as it allows me to see the results of work beyond code itself. Apart from that? I love traveling and discovering new places.',
+      bio_desc: 'I bridge two worlds: on one hand, programming and technical challenges (networks, monitoring, hardware), and on the other – digital art. I love creating and painting 3D models, as it allows me to see the results of work beyond code itself. Apart from that? I love traveling and discovering new places.',
       tech_title: 'Tech Stack',
       tech_items: ['C++', 'Java', 'Lua', 'HTML5', 'CSS', 'JavaScript', 'PHP', 'SQL', 'Git', 'Blender', 'Substance Painter 3D'],
       location_title: 'Location',
